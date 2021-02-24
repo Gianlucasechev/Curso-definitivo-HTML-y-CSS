@@ -1,0 +1,33 @@
+.list-item{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: skyblue;
+}
+.list-item__item{
+    margin:0 10px ;
+    display: inline-block;
+}
+.list-item__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: red;
+}
+/* pseudoclases */
+.list-item__item a:hover{
+    color: blue;
+}
+.list-item__item a:active{
+    color: green;
+}
+/* pseudoelementos con :: */
+.list-item__item a::before{
+    content: "|";
+}
+
+h1::first-letter{
+    font-size: 200%;
+    border: 1px solid;
+}

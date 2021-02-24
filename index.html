@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Platzi Alumno"/>
+    <meta name="robot"  content="index,follow"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML y CSS definitivo</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+        h1{
+            text-align: center;
+        }
+        ol{
+            list-style: none;
+            counter-reset: my-awesome-counter;
+        }
+        ol li{
+            counter-increment: my-awesome-counter;
+        }
+        ol li::before{
+            content: counter(my-awesome-counter) ". ";
+            color: red;
+            font-weight: bold;
+        }
+        body{
+            font-family: Montserrat, sans-serif;
+        }
+        li{
+            padding-bottom: 1em;
+        }
+        a{
+            text-decoration: none;
+        }
+        figure{
+            margin: 0;
+        }
+        .lista{
+            display: flex;
+        }
+        .container{
+            margin: 2em;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Soy la Lista de Super de Gianlucas</h1>
+    <nav>
+        <ul class="lista">
+            <div class="container">
+                <li>Frutas</li>
+                <ol>
+                    <li>
+                        <a href="https://peru.com/2012/01/18/estilo-de-vida/gastronomia/prepara-delicioso-pie-manzana-noticia-38533"> Manzana🍎</a>
+                        <figure>
+                            <img src="img/apple.jpg" width="200px">
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://www.inspiredtaste.net/19907/simple-banana-smoothie-recipe/">Platano🍌</a>
+                        <figure>
+                            <img src="img/banana.jpg" width="200px" height="133.33px">
+                        </figure>
+                    </li>
+                    <li>Naranja🍊
+                        <figure>
+                            <img src="img/orange.jpg" width="200px" height="133.33px">
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+            <div class="container">
+                <li>Carnes</li>
+                <ol>
+                    <li>Bistek🥩
+                        <figure>
+                            <img src="img/beef-steak.jpg" alt="esta imagen es de un beef steak" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de una carne beef steak</figcaption>
+                        </figure>
+                    </li>
+                    
+                    <li>Biffe🥩
+                        <figure>
+                            <img src="img/beef.jpg" alt="esta imagen es de un beef" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de un biffe</figcaption>
+                        </figure>
+                    </li>
+                    <li>Kobe🍖
+                        <figure>
+                            <img src="img/kobe.jpg" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de una carne Kobe</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+            <div class="container">
+                <li>Verduras</li>
+                <ol>
+                    <li>Pimiento🌶️
+                        <figure>
+                            <img src="img/pepper.jpg" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de un pimiento</figcaption>
+                        </figure>
+                    </li>
+                    <li>Arberja🍃
+                        <figure>
+                            <img src="img/arberja.jpg" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de una arberja</figcaption>
+                        </figure>
+                    </li>
+                    <li>Zanahoria🥕
+                        <figure>
+                            <img src="img/carrot.jpg" width="200px" height="133.33px">
+                            <figcaption>Esta es una imagen de una zanahoria</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+        </ul>
+    </nav>
+</body>
+</html>

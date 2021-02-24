@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <main>
+        <!-- manera normal de hacer un calendario -->
+        <!-- <section>
+            <form action="">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" name="hora" id="hora">
+                </label>
+                <label for="dia">
+                    <span>Día</span>
+                    <input type="date" name="dia" id="dia">
+                </label>
+                <label for="semana">
+                    <span>semana</span>
+                    <input type="week" name="semana" id="semana">
+                </label>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" name="mes" id="mes">
+                </label>
+                <input type="button" name="enviar" id="enviar" value="Enviar">
+            </form>
+        </section> -->
+
+
+        <!-- manera optimizada -->
+        <form action="">
+            <label for="calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="calendario">
+            </label>
+            <input type="submit" name="enviar" id="enviar">
+        </form>
+    </main>
+</body>
+</html>

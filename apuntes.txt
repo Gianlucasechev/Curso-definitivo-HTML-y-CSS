@@ -1,0 +1,52 @@
+SASS - CSS con poderes
+Webpack - 
+
+Backend: Va manejar toda la logica detrás de la página.
+
+<meta name="description" content="página de gamers"/>
+<meta name="robots" content="index,follow"/>
+------------------------------------------------------------
+Una imagen debe pesar en promedio unos 70kb
+tiny png - La página se encarga de comprimir las imágenes
+verefix - El celular le agrega ciertos datos que en esta página se quitan.
+-------------------------------------------------------------
+La etiqueta <video>, tiene algunos atributos como:
+.
+controls: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+
+preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+
+.
+La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces, para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+la etiqueta source dentro de video permite añadir distintos tipos de formato de video en uno
+------------------------------------------------------------------
+clase 20 input vs button:
+input type submit = lo utilizaremos solo en los formularios
+
+Button = lo utilizaremos en cualquier otro tipo de boton dentro de nuestro proyecto
+
+<!-- // solo para formularios -->
+<input type="submit" value="Nombre" /> // con el atributo value podremos cambiar el texto que se vera en el
+
+<!-- // lo usaremos para cualquier caso en el que necesitemos un boton -->
+<button type="submit">Qué color te gusta?</button> 
+<!-- // si quieres usar un button en un formulario debes agregarle el type = "submit" -->
+-------------------------------------------------------------------------
+Resume de BEM:
+
+Es nombrar clases siguiendo el siguiente patrón: BLOQUE__ELEMENTO–MODIFICADOR
+
+Por ejemplo:
+
+<!-- BLOQUE -->
+<main class="Padre">
+	<!-- BLOQUE__ELEMENTO --> 
+	<section class="Padre__Hijo">
+		<!-- BLOQUE__ELEMENTO--MODIFICADOR -->
+		<article class="Padre__Hijo--Mayor"></article>
+	</section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+ </main>
+----------------------------------------------------------------------------------
