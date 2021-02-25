@@ -61,3 +61,16 @@ Los !important estarán por encima de los demás estilos. Sin embargo, son mala 
 Los estilos embebidos en el HTML, es decir inline styles están por encima de las clases y IDs. Sin embargo, también se deberían evitar.
 Los IDs están por encima de las clases. Los IDs son específicos, si se usa uno en un archivo HTML ya no se podrá repetir más en ese mismo archivo. Mientras que las clases si se pueden repetir en cualquier elemento.
 Un estilo de etiqueta es el último valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de esa etiqueta. Los estilos de etiqueta son los que menos peso tienen.
+-------------------------------------------------------------------------------------
+Utilizar tantos ID's es mala practica - las mejores practicas incluyen utilizar clases y los selectores de siempre.
+
+No combiene tener tantos ID's porque puede ocasionar problemas futuros debido a su especificidad tan importante. Viene después de los estilos embebidos.
+--------------------------------------------------------------------------------------
+Importancia de la especificidad: (!important,estilos embebidos(en el mismo selector),id, clase, selectores)
+--------------------------------------------------------------------------------------
+Clase 30: 
+El combinador hermano adyacente ( +) separa dos selectores y coincide con el segundo elemento solo si sigue inmediatamente al primer elemento, y ambos son hijos del mismo padre element.
+General Sibling: Los hermanos generales son los que comparten el mismo element padre. Da igual el orden o si hay alguno entre estos elementos.
+--------------------------------------------------------------------------------------
+Combinador Hijo: div>p (por ejemplo) este combinador tambien es llamado hijo directo.
+Combinador descendiente: Todos las etiquetas que están dentro de otro se les aplica las reglas o estilos. Siempre coge el padre de más rango, es decir la que está más arriba,

@@ -10,23 +10,22 @@ h1{
 .tittle{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
 }
-#page-tittle{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#main-nav{
+
+.nav{
     padding-left: 0;
 }
-#main-nav li{
+.nav li{
     display: inline-block;
 }
-#main-nav a{
+.nav a{
     color: white;
     background-color: #13a4a4;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
 }
-#main-nav .orange{
+.nav .link{
     background-color: orange;
 }
