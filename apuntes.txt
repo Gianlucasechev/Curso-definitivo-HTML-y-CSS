@@ -74,3 +74,20 @@ General Sibling: Los hermanos generales son los que comparten el mismo element p
 --------------------------------------------------------------------------------------
 Combinador Hijo: div>p (por ejemplo) este combinador tambien es llamado hijo directo.
 Combinador descendiente: Todos las etiquetas que están dentro de otro se les aplica las reglas o estilos. Siempre coge el padre de más rango, es decir la que está más arriba,
+------------------------------------------------------------------------------------
+medida absoluta: el valor de este no cambia y siempre sera el mismo asi la pagina cambie su tamaño, las medidas absolutas son:
+.
+mm = milimetros
+cm = centimetros
+in = pulgada
+pc = picas
+px = pixel
+.
+
+las medidas relativas: estas medidas heredan el tamaño o se basan en algun tamaño que se alla seleccionado y el valor ira cambiando segun si la pagina cambia de tamaño, las medidas relativas son :
+.
+%
+em
+rem
+------------------------------------------------------------------------------
+EM = es un acronimo de elemento y lo que hace es tomar el tamaño de fuente que tenga el padre
