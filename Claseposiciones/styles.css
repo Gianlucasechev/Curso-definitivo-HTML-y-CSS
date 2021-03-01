@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.parent{
+    border: 2px dotted black;
+    /*Ajusta el tamaño al contenido de la caja*/
+}
+.box{
+    display: inline-block;
+    text-align: center;
+    vertical-align:middle;
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+}
+p{
+    font-size: 3rem;
+    line-height: 10rem;
+}
+.padre{
+    background-color: red;
+}
+.hijo {
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+ }
+ #dos{
+     position: absolute;
+     
+ }
+ #tres{
+     z-index: 2;
+ }

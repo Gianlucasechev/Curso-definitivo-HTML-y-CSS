@@ -99,3 +99,5 @@ Max-height: se utiliza para definir la altura máxima de un elemento dado. Impid
 Min-width: se usa para determinar la anchura mínima de un elemento. Previene que la propiedad width pueda ser inferior que min-width . Aplicable a: elementos de tipo bloque. Porcentajes: se refieren a la anchura del bloque contenedor.
 
 Max-width: define el ancho máximo que un elemento puede tener, max-width cambia el tamaño del elemento si el valor de width es mayor que el de max-width.
+----------------------------------------------------------------------------------
+La etiqueta SPAN tiene por defecto el display inline
